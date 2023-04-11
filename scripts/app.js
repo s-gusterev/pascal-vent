@@ -1,4 +1,4 @@
 import 'normalize.css';
-import '../styles/style.css';
+import '../styles/main.css';
 
 console.log('Starting');

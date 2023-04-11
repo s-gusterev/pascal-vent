@@ -1,0 +1,121 @@
+.hero__title {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-family: var(--font-family-secondary);
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 74px;
+  text-transform: capitalize;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  max-width: 537px;
+}
+
+.hero__title-primary {
+  color: var(--text-color-dark);
+  letter-spacing: 0.01em;
+}
+.hero__title-primary_margin_bottom {
+  margin-bottom: 5px;
+}
+
+.hero__title-primary_position_false {
+  position: relative;
+}
+
+.hero__title-primary_position_false::before {
+  position: absolute;
+  content: '';
+  width: 148px;
+  height: 3px;
+  background-color: var(--color-secondary);
+  border-radius: 1.5px;
+  left: -193px;
+  top: 53%;
+  transform: translateY(-53%);
+}
+
+.hero__title-secondary {
+  color: var(--color-secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.hero__subtitle {
+  color: var(--text-color-secondary);
+  font-family: var(--font-family-primary);
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 32px;
+  max-width: 453px;
+  margin-top: 0;
+  margin-bottom: 52px;
+  padding-left: 86px;
+  position: relative;
+}
+
+.hero__subtitle::before {
+  position: absolute;
+  content: '';
+  width: 50px;
+  height: 10px;
+  background-image: url(./icons/icons-3.svg);
+  left: 20px;
+  top: 10px;
+}
+
+.hero__contacts {
+  display: flex;
+  gap: 127px;
+  padding-left: 86px;
+  color: var(--text-color-accent);
+  font-family: var(--font-family-primary);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 63px;
+}
+
+.hero__address {
+  max-width: 154px;
+  font-style: normal;
+  position: relative;
+}
+
+.hero__phones {
+  max-width: 129px;
+  position: relative;
+}
+
+.hero__address::before,
+.hero__phones::before {
+  content: '';
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  left: -50px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.hero__address::before {
+  background-image: url(./icons/location.svg);
+}
+
+.hero__phones::before {
+  background-image: url(./icons/tel.png);
+}
+
+.hero__tel {
+  text-decoration: none;
+  color: inherit;
+}
+
+.hero__button {
+  margin-left: 23px;
+}

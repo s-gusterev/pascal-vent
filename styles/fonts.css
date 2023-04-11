@@ -1,63 +1,66 @@
 @font-face {
   font-family: 'Proxima Nova';
-  src: url('./fonts/proxima/ProximaNova-Bold.eot');
+  src: url(/fonts/proxima/ProximaNova-Bold.eot);
   src: local('Proxima Nova Bold'), local('ProximaNova-Bold'),
-    url('./fonts/proxima/ProximaNova-Bold.eot?#iefix')
-      format('embedded-opentype'),
-    url('./fonts/proxima/ProximaNova-Bold.woff2') format('woff2'),
-    url('./fonts/proxima/ProximaNova-Bold.woff') format('woff'),
-    url('./fonts/proxima/ProximaNova-Bold.ttf') format('truetype');
+    url(/fonts/proxima/ProximaNova-Bold.eot?#iefix) format('embedded-opentype'),
+    url(/fonts/proxima/ProximaNova-Bold.woff2) format('woff2'),
+    url(/fonts/proxima/ProximaNova-Bold.woff) format('woff'),
+    url(/fonts/proxima/ProximaNova-Bold.ttf) format('truetype');
   font-weight: 700;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
   font-family: 'Proxima Nova';
-  src: url('./fonts/proxima/ProximaNova-Regular.eot');
+  src: url(/fonts/proxima/ProximaNova-Regular.eot);
   src: local('Proxima Nova Regular'), local('ProximaNova-Regular'),
-    url('./fonts/proxima/ProximaNova-Regular.eot?#iefix')
+    url(/fonts/proxima/ProximaNova-Regular.eot?#iefix)
       format('embedded-opentype'),
-    url('./fonts/proxima/ProximaNova-Regular.woff2') format('woff2'),
-    url('./fonts/proxima/ProximaNova-Regular.woff') format('woff'),
-    url('./fonts/proxima/ProximaNova-Regular.ttf') format('truetype');
+    url(/fonts/proxima/ProximaNova-Regular.woff2) format('woff2'),
+    url(/fonts/proxima/ProximaNova-Regular.woff) format('woff'),
+    url(/fonts/proxima/ProximaNova-Regular.ttf) format('truetype');
   font-weight: 400;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
   font-family: 'Proxima Nova';
-  src: url('./fonts/proxima/ProximaNova-Semibold.eot');
+  src: url(/fonts/proxima/ProximaNova-Semibold.eot);
   src: local('Proxima Nova Semibold'), local('ProximaNova-Semibold'),
-    url('./fonts/proxima/ProximaNova-Semibold.eot?#iefix')
+    url(/fonts/proxima/ProximaNova-Semibold.eot?#iefix)
       format('embedded-opentype'),
-    url('./fonts/proxima/ProximaNova-Semibold.woff2') format('woff2'),
-    url('./fonts/proxima/ProximaNova-Semibold.woff') format('woff'),
-    url('./fonts/proxima/ProximaNova-Semibold.ttf') format('truetype');
+    url(/fonts/proxima/ProximaNova-Semibold.woff2) format('woff2'),
+    url(/fonts/proxima/ProximaNova-Semibold.woff) format('woff'),
+    url(/fonts/proxima/ProximaNova-Semibold.ttf) format('truetype');
   font-weight: 600;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
   font-family: 'Ruberoid';
-  src: url('./fonts/ruberoid/Ruberoid-Regular.eot');
+  src: url(/fonts/ruberoid/Ruberoid-Regular.eot);
   src: local('Ruberoid'), local('Ruberoid-Regular'),
-    url('./fonts/ruberoid/Ruberoid-Regular.eot?#iefix')
-      format('embedded-opentype'),
-    url('./fonts/ruberoid/Ruberoid-Regular.woff2') format('woff2'),
-    url('./fonts/ruberoid/Ruberoid-Regular.woff') format('woff'),
-    url('./fonts/ruberoid/Ruberoid-Regular.ttf') format('truetype');
+    url(/fonts/ruberoid/Ruberoid-Regular.eot?#iefix) format('embedded-opentype'),
+    url(/fonts/ruberoid/Ruberoid-Regular.woff2) format('woff2'),
+    url(/fonts/ruberoid/Ruberoid-Regular.woff) format('woff'),
+    url(/fonts/ruberoid/Ruberoid-Regular.ttf) format('truetype');
   font-weight: 400;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
   font-family: 'Ruberoid';
-  src: url('./fonts/ruberoid/Ruberoid-Bold.eot');
+  src: url(/fonts/ruberoid/Ruberoid-Bold.eot);
   src: local('Ruberoid'), local('Ruberoid-Bold'),
-    url('./fonts/ruberoid/Ruberoid-Bold.eot?#iefix') format('embedded-opentype'),
-    url('./fonts/ruberoid/Ruberoid-Bold.woff2') format('woff2'),
-    url('./fonts/ruberoid/Ruberoid-Bold.woff') format('woff'),
-    url('./fonts/ruberoid/Ruberoid-Bold.ttf') format('truetype');
+    url(/fonts/ruberoid/Ruberoid-Bold.eot?#iefix) format('embedded-opentype'),
+    url(/fonts/ruberoid/Ruberoid-Bold.woff2) format('woff2'),
+    url(/fonts/ruberoid/Ruberoid-Bold.woff) format('woff'),
+    url(/fonts/ruberoid/Ruberoid-Bold.ttf) format('truetype');
   font-weight: 700;
   font-style: normal;
+  font-display: swap;
 }

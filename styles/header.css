@@ -70,7 +70,7 @@
 }
 
 .header__link {
-  font-family: 'Proxima Nova', Arial, Helvetica, sans-serif;
+  font-family: var(--font-family-primary);
   font-weight: 400;
   color: var(--text-color-dark);
   text-transform: lowercase;

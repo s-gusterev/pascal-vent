@@ -1,0 +1,21 @@
+.services {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  display: flex;
+}
+
+.services__text {
+  max-width: 444px;
+}
+
+.services__title {
+  margin-bottom: 22px;
+}
+
+.services__paragraph {
+  margin-bottom: 25px;
+}
+
+.services__paragraph:last-child {
+  margin-bottom: 0;
+}

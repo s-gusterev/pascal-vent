@@ -8,6 +8,15 @@
   max-width: 1130px;
 }
 
+.container_size_medium {
+  max-width: 1305px;
+}
+
+.container_size_padding_true {
+  padding-left: 190px;
+  padding-right: 0;
+}
+
 .container_size_large {
   max-width: 1350px;
 }

@@ -63,7 +63,9 @@
           Оставить заявку
         </button>
       </section>
-      <section class="services container container_size_small">
+      <section
+        class="services container container_size_medium container_size_padding_true"
+      >
         <div class="services__text">
           <h2 class="title-section services__title">Предоставляемые услуги</h2>
           <p class="paragraph-section services__paragraph">
@@ -85,10 +87,7 @@
         </div>
         <div class="tabs">
           <div class="tabs__navigation">
-            <button
-              class="tabs__button tabs__button_border-radius_true tabs__button_active"
-              data-tab="ventilation"
-            >
+            <button class="tabs__button tabs__button_border-radius_true">
               <svg
                 width="33"
                 height="33"
@@ -121,14 +120,9 @@
                   fill="white"
                 />
               </svg>
-              <span class="tabs__button-text tabs__button-text_active"
-                >Система Вентиляции</span
-              >
+              <span class="tabs__button-text">Система Вентиляции</span>
             </button>
-            <button
-              class="tabs__button tabs__button_border-radius_false"
-              data-tab="air-conditioning"
-            >
+            <button class="tabs__button tabs__button_border-radius_false">
               <svg
                 width="33"
                 height="27"
@@ -172,10 +166,7 @@
             </button>
           </div>
           <div class="tabs__main">
-            <div
-              class="tabs__content tabs__content_active"
-              data-tab="ventilation"
-            >
+            <div class="tabs__content">
               <ul class="tabs__list">
                 <li class="tabs__item">
                   <img class="tabs__item-icon" src="/icons/tabs/1.svg" alt="" />
@@ -214,10 +205,16 @@
                   >
                 </li>
               </ul>
-              <img src="/images/tabs-1.png" alt="Монтаж вентиляции" />
+              <div class="tabs__image-container">
+                <img
+                  class="tabs__image"
+                  src="/images/tabs-1.jpg"
+                  alt="Монтаж вентиляции"
+                />
+              </div>
             </div>
 
-            <div class="tabs__content" data-tab="air-conditioning">
+            <div class="tabs__content">
               <ul class="tabs__list">
                 <li class="tabs__item">
                   <img class="tabs__item-icon" src="/icons/tabs/1.svg" alt="" />
@@ -258,10 +255,13 @@
                   >
                 </li>
               </ul>
-              <img
-                src="/images/tabs-2.png"
-                alt="Монтаж системы кондиционирования"
-              />
+              <div class="tabs__image-container">
+                <img
+                  class="tabs__image"
+                  src="/images/tabs-2.jpeg"
+                  alt="Монтаж системы кондиционирования"
+                />
+              </div>
             </div>
           </div>
         </div>

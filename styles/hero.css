@@ -100,7 +100,7 @@
   width: 32px;
   height: 32px;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   left: -50px;
   top: 50%;
   transform: translateY(-50%);

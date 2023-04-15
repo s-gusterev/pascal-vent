@@ -11,6 +11,18 @@
 
 .services__title {
   margin-bottom: 22px;
+  position: relative;
+}
+
+.services__title::after {
+  position: absolute;
+  content: '';
+  width: 245px;
+  height: 2px;
+  background-color: var(--color-secondary);
+  border-radius: 1.5px;
+  right: 0;
+  bottom: 22px;
 }
 
 .services__paragraph {

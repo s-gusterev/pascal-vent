@@ -1,0 +1,57 @@
+-
+  var cards = [
+    {title:'Квартиры и офисы',
+    image: 'images/office.jpeg',
+    alt: 'Монтаж систем кондиционирования и вентиляции в квартире',
+    price: 'от 100 000 ₽'},
+
+    {title:'Магазины и ТЦ',
+    image: 'images/tc.jpg',
+    alt: 'Монтаж систем кондиционирования и вентиляции в магазине',
+    price: 'от 100 000 ₽'},
+
+    {title:'Фитнес центры',
+    image: 'images/fitnes-centr.jpg',
+    alt: 'Монтаж систем кондиционирования и вентиляции в фитнес центре',
+    price: 'от 150 000 ₽'},
+
+    {title:'Бассейны',
+    image: 'images/basseyn.jpg',
+    alt: 'Монтаж систем кондиционирования и вентиляции в бассейне',
+    price: 'от 150 000 ₽'},
+
+    {title:'Загородные дома, коттеджи, таунхаусы',
+    image: 'images/home.jpg',
+    alt: 'Монтаж систем кондиционирования и вентиляции в загородном доме',
+    price: 'от 200 000 ₽'},
+
+    {title:'Рестораны, кафе, бары',
+    image: 'images/rest.jpg',
+    alt: 'Монтаж систем кондиционирования и вентиляции в ресторане',
+    price: 'от 200 000 ₽'},
+
+    {title:'Стоматологии, клиники',
+    image: 'images/stomat.jpg',
+    alt: 'Монтаж систем кондиционирования и вентиляции в клинике',
+    price: 'от 200 000 ₽'},
+
+    {title:'Салоны красоты, СПА',
+    image: 'images/spa.jpg',
+    alt: 'Монтаж систем кондиционирования и вентиляции в салоне красоты',
+    price: 'от 100 000 ₽'},
+
+  ];
+
+section.complete
+  .complete__container.container
+    h2.title-section.complete__title Комплексное решение по монтажу и вентиляции под ключ
+    ul.complete__list
+      each card in cards
+        li.complete__item
+          .complete__item-image-container
+            img.complete__item-image(src=card.image alt=card.alt)
+          .complete__item-title-container
+            h3.complete__item-title #{card.title}
+          p.complete__item-price #{card.price}
+
+

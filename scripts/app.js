@@ -1,4 +1,6 @@
 import 'normalize.css';
 import '../styles/main.css';
 
-console.log('Starting');
+import showTab from './tabs';
+
+showTab(0);

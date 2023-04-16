@@ -1,0 +1,124 @@
+.tabs {
+  display: flex;
+  align-items: center;
+}
+
+.tabs__navigation {
+  background-color: var(--color-light);
+  border-radius: 45px 0px 0px 45px;
+  padding: 10px 0 10px 10px;
+  box-sizing: border-box;
+}
+
+.tabs__button {
+  padding: 25px 24px;
+  border: 0;
+  background-color: #fff;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: background 300ms ease-in;
+}
+
+.tabs__button_active {
+  background-color: var(--color-button);
+  box-shadow: var(--shadow-button);
+  cursor: auto;
+}
+
+.tabs__button_border-radius_true {
+  border-top-left-radius: 40px;
+}
+
+.tabs__button_border-radius_false {
+  border-bottom-left-radius: 40px;
+}
+
+.tabs__button-text {
+  display: inline-block;
+  writing-mode: vertical-rl;
+  transform-origin: center;
+  transform: rotate(-180deg);
+  font-family: var(--font-family-primary);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  color: var(--color-button-tab);
+  padding-bottom: 15px;
+  transition: color 300ms ease-in;
+}
+
+.tabs__button_active .tabs__button-text {
+  color: #fff;
+}
+
+.tabs__button svg path {
+  fill: var(--color-button-tab);
+  transition: all 300ms ease-in-out;
+}
+
+.tabs__button_active svg path {
+  fill: #fff;
+}
+
+.tabs__main {
+  background-color: var(--color-light);
+  border-radius: 65px 0px 0px 65px;
+  max-width: 676px;
+  max-height: 655px;
+  padding-left: 40px;
+}
+
+.tabs__content {
+  /* display: none; */
+  opacity: 0;
+  height: 0;
+  overflow: hidden;
+  transition: all 300ms ease-in-out;
+}
+.tabs__content_active {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  opacity: 1;
+  height: auto;
+}
+
+.tabs__image-container {
+  width: 240px;
+  height: 655px;
+  filter: drop-shadow(-4px 0px 8px rgba(15, 44, 15, 0.35));
+  border-radius: 65px 0px 0px 65px;
+  overflow: hidden;
+}
+
+.tabs__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.tabs__list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.tabs__item {
+  font-family: var(--font-family-primary);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  color: var(--text-color-dark);
+  max-width: 356px;
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.tabs__item:last-child {
+  margin-bottom: 0;
+}

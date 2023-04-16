@@ -71,6 +71,8 @@
 
 .header__link {
   font-family: var(--font-family-primary);
+  font-size: 15px;
+  line-height: 18px;
   font-weight: 400;
   color: var(--text-color-dark);
   text-transform: lowercase;

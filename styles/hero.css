@@ -117,6 +117,7 @@
 .hero__tel {
   text-decoration: none;
   color: inherit;
+  display: block;
 }
 
 .hero__button {

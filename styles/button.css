@@ -53,6 +53,14 @@
   background-color: rgba(120, 192, 129, 0.25);
 }
 
+.button_border_dark:disabled:after {
+  background-color: rgba(120, 192, 129, 0.25);
+}
+
 .button:hover {
   background-color: var(--color-button-nover);
+}
+
+.button:disabled {
+  background-color: var(--color-button-disabled);
 }

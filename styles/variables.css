@@ -8,6 +8,7 @@
   --color-button: #5ccd6a;
   --color-button-nover: #54e165;
   --color-button-tab: #7ca281;
+  --color-button-disabled: #9cd3a3;
   --shadow-button: inset 2px -2px 12px rgba(34, 111, 33, 0.36);
   --font-family-primary: 'Proxima Nova', Arial, Helvetica, sans-serif;
   --font-family-secondary: 'Ruberoid', Arial, Helvetica, sans-serif;

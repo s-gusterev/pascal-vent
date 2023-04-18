@@ -6,3 +6,7 @@
   color: var(--text-color-primary);
   margin: 0;
 }
+
+.paragraph-section_bolder {
+  font-weight: 600;
+}

@@ -1,0 +1,29 @@
+-
+  var n = 0
+  var list = [
+    'Создание комфортных условий для работы и отдыха',
+      'Чистый, свежий, приточный воздух круглый год', 
+      'Удаление не приятных запахов, избыточной влажности и накопившегося углекислого газа из помещений', 
+      'Поддержание комфортной температуры и влажности воздуха зимой и летом'];
+
+section.comfort.container.container_size_small
+  .comfort__text
+    h2.title-section.title-section_size_large.title-section_capitalize_true.comfort__title комфорт и Уют в любое время года
+    .comfort__list-decoration
+      while n < 6
+        div.comfort__list-decoration-item
+        -n++
+    ul.comfort__list 
+      each item in list 
+        li.comfort__item #{item}
+    p.paragraph-section.comfort__paragraph.
+      <span class="paragraph-section_bolder">Pascsl Vent</span> поможет улучшить ваше самочувствие и повысить
+      работоспособность днем, а ночью подарит здоровый и крепкий сон. 
+      Это важно для тех, кто следит за своим здоровьем и
+      здоровьем своих близких.
+    button.button.button_size_large.button_border_dark.comfort__button Заполнить заявку
+  .comfort__images
+    img.comfort__image(src="images/comfort-1.jpg" alt="Изображение галереи секции")
+    img.comfort__image(src="images/comfort-2.jpg" alt="Изображение галереи секции")
+    img.comfort__image(src="images/comfort-3.jpg" alt="Изображение галереи секции")
+    img.comfort__image(src="images/comfort-4.jpg" alt="Изображение галереи секции")

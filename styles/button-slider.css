@@ -1,0 +1,33 @@
+.button-slider {
+  border: 0;
+  width: 34px;
+  height: 34px;
+  box-shadow: inset 2px -2px 5px rgba(29, 92, 28, 0.2);
+  border: 6px solid rgba(120, 192, 129, 0.25);
+  border-radius: 100%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: transparent;
+  padding: 0;
+  cursor: pointer;
+  transition: background 300ms ease-in-out;
+}
+
+.button-slider:active {
+  transform: scale(1.1);
+}
+
+.button-slider_next {
+  background-image: url(icons/slider-next.svg);
+}
+.button-slider_next:hover {
+  background-image: url(icons/slider-next-hover.svg);
+}
+
+.button-slider_prev {
+  background-image: url(icons/slider-prev.svg);
+}
+
+.button-slider_prev:hover {
+  background-image: url(icons/slider-prev-hover.svg);
+}

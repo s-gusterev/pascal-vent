@@ -21,5 +21,6 @@ section.steps
   ul.steps__stages
     each step in steps
       li.steps__stage
-        img.steps__stage-image(src=step.image alt=step.title)
+        .steps__stage-image-container
+          img.steps__stage-image(src=step.image alt=step.title)
         span.steps__stage-text #{step.title}

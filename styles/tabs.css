@@ -21,6 +21,10 @@
   transition: background 300ms ease-in;
 }
 
+.tabs__button:not(.tabs__button_active):hover .tabs__button-text {
+  color: var(--color-button-nover);
+}
+
 .tabs__button_active {
   background-color: var(--color-button);
   box-shadow: var(--shadow-button);
@@ -62,6 +66,10 @@
   fill: #fff;
 }
 
+.tabs__button:not(.tabs__button_active):hover svg path {
+  fill: var(--color-button-nover);
+}
+
 .tabs__main {
   background-color: var(--color-light);
   border-radius: 65px 0px 0px 65px;
@@ -71,7 +79,6 @@
 }
 
 .tabs__content {
-  /* display: none; */
   opacity: 0;
   height: 0;
   overflow: hidden;

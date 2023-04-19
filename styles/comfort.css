@@ -35,37 +35,37 @@
 .comfort__list-decoration-item:nth-child(1)::after {
   width: 32px;
   height: 23px;
-  background-image: url(icons/comfort/1.svg);
+  background-image: url(/icons/comfort/1.svg);
 }
 
 .comfort__list-decoration-item:nth-child(2)::after {
   width: 16px;
   height: 29px;
-  background-image: url(icons/comfort/2.svg);
+  background-image: url(/icons/comfort/2.svg);
 }
 
 .comfort__list-decoration-item:nth-child(3)::after {
   width: 28px;
   height: 28px;
-  background-image: url(icons/comfort/3.svg);
+  background-image: url(/icons/comfort/3.svg);
 }
 
 .comfort__list-decoration-item:nth-child(4)::after {
   width: 28px;
   height: 28px;
-  background-image: url(icons/comfort/4.svg);
+  background-image: url(/icons/comfort/4.svg);
 }
 
 .comfort__list-decoration-item:nth-child(5)::after {
   width: 22px;
   height: 28px;
-  background-image: url(icons/comfort/5.svg);
+  background-image: url(/icons/comfort/5.svg);
 }
 
 .comfort__list-decoration-item:nth-child(6)::after {
   width: 28px;
   height: 24px;
-  background-image: url(icons/comfort/6.svg);
+  background-image: url(/icons/comfort/6.svg);
 }
 
 .comfort__list {
@@ -106,7 +106,7 @@
   background-color: var(--color-secondary);
   border-radius: 100%;
   left: 5px;
-  top: 5;
+  top: 5px;
 }
 
 .comfort__item:last-child {

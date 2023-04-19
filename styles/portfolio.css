@@ -74,7 +74,7 @@
   content: '';
   width: 94px;
   height: 29px;
-  background-image: url(images/portfolio-logo.svg);
+  background-image: url(/images/portfolio-logo.svg);
   background-repeat: no-repeat;
   background-size: contain;
 }

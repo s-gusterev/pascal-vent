@@ -9,7 +9,7 @@
   content: '';
   width: 100%;
   height: 100%;
-  background-image: url(images/bg-complete.svg);
+  background-image: url(/images/bg-complete.svg);
   left: 0;
   top: 0;
   background-repeat: no-repeat;

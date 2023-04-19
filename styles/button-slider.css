@@ -18,16 +18,16 @@
 }
 
 .button-slider_next {
-  background-image: url(icons/slider-next.svg);
+  background-image: url(/icons/slider-next.svg);
 }
 .button-slider_next:hover {
-  background-image: url(icons/slider-next-hover.svg);
+  background-image: url(/icons/slider-next-hover.svg);
 }
 
 .button-slider_prev {
-  background-image: url(icons/slider-prev.svg);
+  background-image: url(/icons/slider-prev.svg);
 }
 
 .button-slider_prev:hover {
-  background-image: url(icons/slider-prev-hover.svg);
+  background-image: url(/icons/slider-prev-hover.svg);
 }

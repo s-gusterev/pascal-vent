@@ -1,0 +1,104 @@
+.about {
+  padding-block: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 96px;
+}
+
+.about__text {
+  max-width: 531px;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgba(73, 93, 76, 0.1);
+  border-radius: 50px;
+  padding: 45px 45px 33px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.about__text::after {
+  position: absolute;
+  content: '';
+  width: 656px;
+  height: 499px;
+  background-color: rgba(186, 255, 195, 0.5);
+  filter: blur(100px);
+  top: 17px;
+  left: -125px;
+  z-index: -1;
+}
+
+.about__title {
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.about__title::after {
+  position: absolute;
+  content: 'Pascal vent';
+  font-family: var(--font-family-secondary);
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 28px;
+  color: var(--color-secondary);
+  text-transform: uppercase;
+  right: 118px;
+  top: 16px;
+  padding-bottom: 3px;
+  border-bottom: 1px solid var(--color-secondary);
+  border-radius: 1.5px;
+}
+
+.about__paragraph {
+  margin-bottom: 20px;
+}
+
+.about__paragraph:last-child {
+  margin-bottom: 0;
+}
+
+.about__list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 93px 60px;
+}
+
+.about__item {
+  position: relative;
+}
+
+.about__item::after {
+  position: absolute;
+  content: '';
+  width: 122px;
+  height: 122px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(186, 255, 195, 0.5);
+  filter: blur(50px);
+}
+
+.about__item-title {
+  font-family: var(--font-family-secondary);
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 35px;
+  margin-top: 0;
+  margin-bottom: 15px;
+  color: var(--color-secondary);
+}
+
+.about__item-paragraph {
+  max-width: 198px;
+  margin: 0;
+  font-family: var(--font-family-primary);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: center;
+  color: var(--text-color-secondary);
+}

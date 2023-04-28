@@ -1,16 +1,23 @@
 .button-slider {
-  border: 0;
-  width: 34px;
-  height: 34px;
   box-shadow: inset 2px -2px 5px rgba(29, 92, 28, 0.2);
   border: 6px solid rgba(120, 192, 129, 0.25);
   border-radius: 100%;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-color: transparent;
   padding: 0;
   cursor: pointer;
   transition: background 300ms ease-in-out;
+}
+
+.button-slider_size_large {
+  width: 34px;
+  height: 34px;
+}
+
+.button-slider_size_small {
+  width: 28px;
+  height: 28px;
 }
 
 .button-slider:active {

@@ -33,3 +33,14 @@ $('.portfolio__slider-wrapper').on(
       .removeClass('portfolio__slide_active');
   }
 );
+
+$('.clients__slides').slick({
+  // infinite: true,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  variableWidth: true,
+  nextArrow: '.clients__button-next',
+  prevArrow: '.clients__button-prev',
+  cssEase: 'ease',
+  speed: 500,
+});

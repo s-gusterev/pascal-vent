@@ -142,6 +142,7 @@
 .portfolio__slider-wrapper .slick-list .slick-track {
   display: flex !important;
   gap: 30px;
+  width: 2000px !important;
 }
 
 .portfolio__slider-wrapper
@@ -153,6 +154,5 @@
   transition: all 2s linear;
 }
 
-.slick-track {
-  width: 2000px !important;
-}
+/* .slick-track {
+} */

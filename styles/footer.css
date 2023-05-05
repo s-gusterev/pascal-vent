@@ -1,0 +1,135 @@
+.footer {
+  padding-top: 86px;
+  padding-bottom: 96px;
+  background-image: url(/images/footer-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.footer__container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__logo {
+  margin-bottom: 30px;
+}
+
+/* .footer__description {
+  flex-basis: 406px;
+} */
+
+.footer__paragraph-description {
+  max-width: 406px;
+  font-family: var(--font-family-primary);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: var(--text-color-secondary);
+  padding-bottom: 25px;
+  border-bottom: 1px solid var(--text-color-secondary);
+}
+
+.footer__paragraph-description-decorative {
+  font-weight: 600;
+}
+
+.footer__slogan {
+  font-family: var(--font-family-secondary);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  color: var(--text-color-dark);
+}
+
+.footer__slogan-decorative {
+  font-size: 22px;
+  line-height: 30px;
+  color: var(--color-secondary);
+}
+
+.footer__title {
+  font-family: var(--font-family-secondary);
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 35px;
+  color: var(--text-color-dark);
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+
+.footer__contacts {
+  max-width: 242px;
+}
+
+.footer__contacts-item {
+  font-family: var(--font-family-primary);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: var(--text-color-accent);
+  text-decoration: none;
+  display: block;
+  font-style: normal;
+  margin-top: 0;
+  margin-bottom: 15px;
+  padding-left: 40px;
+  position: relative;
+}
+
+.footer__contacts-item_type_link {
+  padding-bottom: 15px;
+  border-bottom: 1px solid #bee1c2;
+  border-radius: 0.5px;
+}
+
+.footer__contacts-item::before {
+  position: absolute;
+  content: '';
+  left: 0;
+  top: 0;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.footer__contacts-item_icon_tel::before {
+  width: 22px;
+  height: 22px;
+  background-image: url(/icons/footer/phone.png);
+}
+
+.footer__contacts-item_icon_mail::before {
+  width: 24px;
+  height: 18px;
+  background-image: url(/icons/footer/mail.svg);
+}
+
+.footer__contacts-item_icon_calendar::before {
+  width: 22px;
+  height: 22px;
+  background-image: url(/icons/footer/calendar.svg);
+}
+
+.footer__contacts-item_icon_pin::before {
+  width: 24px;
+  height: 31px;
+  background-image: url(/icons/location.svg);
+}
+
+.footer__form {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__input_margin_true {
+  margin-bottom: 20px;
+}
+
+.footer__input_margin_false {
+  margin-bottom: 35px;
+}
+
+.footer__button {
+  max-width: 229px;
+  margin-left: 10px;
+}

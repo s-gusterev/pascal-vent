@@ -39,20 +39,6 @@
   align-items: center;
 }
 
-.header__logo {
-  display: block;
-  width: 196px;
-  height: 61px;
-  background-image: url(/images/logo-header.svg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  transition: opacity 300ms ease-in-out;
-}
-
-.header__logo:hover {
-  opacity: 0.8;
-}
-
 .header__list {
   display: flex;
   align-items: center;

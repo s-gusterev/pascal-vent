@@ -1,6 +1,7 @@
 @import './fonts.css';
 @import './variables.css';
 @import './container.css';
+@import './logo.css';
 @import './page.css';
 @import './header.css';
 @import './button.css';
@@ -18,3 +19,5 @@
 @import './button-slider.css';
 @import './portfolio.css';
 @import './clients.css';
+@import './footer.css';
+@import './input.css';

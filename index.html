@@ -7,33 +7,39 @@
   </head>
   <body>
     <header class="header page__header">
-      <div class="container container_size_large header__nav">
-        <a class="logo logo_size_small" href="/"></a>
-        <nav class="header__nav">
-          <ul class="header__list">
-            <li class="header__item">
-              <a class="header__link" href="#">Услуги</a>
-            </li>
-            <li class="header__item">
-              <a class="header__link" href="#">О нас</a>
-            </li>
-            <li class="header__item">
-              <a class="header__link" href="#">Польза Продукта</a>
-            </li>
-            <li class="header__item">
-              <a class="header__link" href="#">Оборудование</a>
-            </li>
-            <li class="header__item">
-              <a class="header__link" href="#">Этапы Работы</a>
-            </li>
-            <li class="header__item">
-              <a class="header__link" href="#">Отзывы</a>
-            </li>
-          </ul>
-        </nav>
-        <button class="button button_size_small button_border_light">
-          Связаться
-        </button>
+      <div class="header__wrapper">
+        <div
+          class="container container_size_large header__container header__container"
+        >
+          <a class="logo logo_size_small" href="/"></a>
+          <nav class="header__nav">
+            <ul class="header__list">
+              <li class="header__item">
+                <a class="header__link" href="#">Услуги</a>
+              </li>
+              <li class="header__item">
+                <a class="header__link" href="#">О нас</a>
+              </li>
+              <li class="header__item">
+                <a class="header__link" href="#">Польза Продукта</a>
+              </li>
+              <li class="header__item">
+                <a class="header__link" href="#">Оборудование</a>
+              </li>
+              <li class="header__item">
+                <a class="header__link" href="#">Этапы Работы</a>
+              </li>
+              <li class="header__item">
+                <a class="header__link" href="#">Отзывы</a>
+              </li>
+            </ul>
+          </nav>
+          <button
+            class="button button_size_small button_border_light header__button"
+          >
+            Связаться
+          </button>
+        </div>
       </div>
     </header>
     <main class="main">
@@ -935,6 +941,29 @@
         </form>
       </div>
     </footer>
+    <div class="popup">
+      <div class="popup__container popup__container_size_large">
+        <h3 class="popup__title">Быстрая связь с нами</h3>
+        <div class="popup__content">
+          <p class="popup__text">
+            Вы можете набрать нам, и менеджеры Pascal Vent с радостью
+            проконсультирует Вас по любому вопросу и помогут определиться с
+            выбором.
+          </p>
+          <span class="popup__time popup__time_position_top"
+            >График приема звонков:</span
+          >
+          <span class="popup__time popup__time_position_bottom"
+            >ПН-СБ с 9:00 до 19:00</span
+          >
+          <div class="popup__phone">
+            <a class="popup__tel" href="tel:+74923736331">+ 7 492 373 63 31</a>
+            <a class="popup__tel" href="tel:+74243678929">+7 424 367 89 29</a>
+          </div>
+        </div>
+        <button class="popup__close" type="button"></button>
+      </div>
+    </div>
     <script type="module" src="scripts/app.js"></script>
   </body>
 </html>

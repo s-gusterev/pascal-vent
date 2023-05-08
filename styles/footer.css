@@ -133,3 +133,7 @@
   max-width: 229px;
   margin-left: 10px;
 }
+
+.footer__button::after {
+  z-index: 0;
+}

@@ -6,7 +6,7 @@ import $ from 'jquery';
 import 'slick-carousel/slick/slick';
 import showTab from './tabs';
 
-const popup = document.querySelector('.popup');
+const popupCommunication = document.querySelector('.popup_type_communication');
 const headerButton = document.querySelector('.header__button');
 const popupClose = document.querySelector('.popup__close');
 const headerWrapper = document.querySelector('.header__wrapper');

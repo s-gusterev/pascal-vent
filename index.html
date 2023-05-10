@@ -941,7 +941,7 @@
         </form>
       </div>
     </footer>
-    <div class="popup">
+    <div class="popup popup_type_communication">
       <div class="popup__container popup__container_size_large">
         <h3 class="popup__title">Быстрая связь с нами</h3>
         <div class="popup__content">
@@ -961,6 +961,37 @@
             <a class="popup__tel" href="tel:+74243678929">+7 424 367 89 29</a>
           </div>
         </div>
+        <button class="popup__close" type="button"></button>
+      </div>
+    </div>
+    <div class="popup popup_type_contact popup_open">
+      <div
+        class="popup__container popup__container_type_contact popup__container_size_small"
+      >
+        <h3 class="popup__title">мы свяжемся с вами</h3>
+        <div class="popup__content popup__content_type_contact">
+          <form class="popup__form">
+            <input
+              class="popup__input popup__input_margin_small"
+              name="name"
+              type="text"
+              placeholder="Ваше Имя"
+            />
+            <input
+              class="popup__input popup__input_margin_large"
+              type="tel"
+              name="tel"
+              placeholder="Номер телефона"
+            />
+            <button
+              class="button button_size_small button_border_dark popup__button-submit"
+              type="submit"
+            >
+              Отправить
+            </button>
+          </form>
+        </div>
+        <div class="popup__logo"></div>
         <button class="popup__close" type="button"></button>
       </div>
     </div>

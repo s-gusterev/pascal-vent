@@ -7,8 +7,14 @@ import 'slick-carousel/slick/slick';
 import showTab from './tabs';
 
 const popupCommunication = document.querySelector('.popup_type_communication');
+const popupContact = document.querySelector('.popup_type_contact');
 const headerButton = document.querySelector('.header__button');
-const popupClose = document.querySelector('.popup__close');
+const heroButton = document.querySelector('.hero__button');
+const comfortButton = document.querySelector('.comfort__button');
+const popupCloseCommunication = document.querySelector(
+  '.popup__close_type_communication'
+);
+const popupCloseContact = document.querySelector('.popup__close_type_contact');
 const headerWrapper = document.querySelector('.header__wrapper');
 const servicesPaddingTop = 150;
 const services = document.querySelector('.services');
@@ -92,6 +98,18 @@ window.onscroll = function () {
   visibleScrollMenu();
 };
 
-headerButton.addEventListener('click', () => openPopup(popup));
-popupClose.addEventListener('click', () => closePopup(popup));
-popup.addEventListener('click', (event) => popupCloseOverlay(event, popup));
+headerButton.addEventListener('click', () => openPopup(popupCommunication));
+heroButton.addEventListener('click', () => openPopup(popupContact));
+comfortButton.addEventListener('click', () => openPopup(popupContact));
+
+popupCloseCommunication.addEventListener('click', () =>
+  closePopup(popupCommunication)
+);
+popupCloseContact.addEventListener('click', () => closePopup(popupContact));
+
+popupCommunication.addEventListener('click', (event) =>
+  popupCloseOverlay(event, popupCommunication)
+);
+popupContact.addEventListener('click', (event) =>
+  popupCloseOverlay(event, popupContact)
+);

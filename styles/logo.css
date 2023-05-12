@@ -1,0 +1,23 @@
+.logo {
+  display: block;
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: opacity 300ms ease-in-out;
+}
+
+.logo_size_small {
+  width: 196px;
+  height: 61px;
+  background-image: url(/images/logo-small.svg);
+}
+
+.logo_size_large {
+  width: 352px;
+  height: 109px;
+  background-image: url(/images/logo-large.svg);
+}
+
+.logo:hover {
+  opacity: 0.8;
+}
